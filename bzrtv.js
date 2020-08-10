@@ -40,7 +40,7 @@ l= Math.floor(l);
 t= Math.random() * tags.length;
 t= Math.floor(t);
  
- document.writeln( '<li><a href="'+domain[l]+'/?k='+tags[t]+'"  target="_blank"> '+tags[t]+'</a></li> ');
+ document.writeln( '<a href="'+domain[l]+'/?k='+tags[t]+'"  target="_blank"> '+tags[t]+'</a> ');
  
 }
 
